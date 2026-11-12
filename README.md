@@ -41,11 +41,11 @@ component.
 
 ## Static files
 
-`static/` needs, from the red-oxide logo:
-
-- `logo.svg`: header and home page
-- `logo-512.png`: link previews (512×512)
-- `favicon.svg`, `favicon.ico` (48×48), `apple-touch-icon.png` (180×180)
+`static/` holds the red-oxide mark and favicons, copied from
+[red-oxide/.github](https://github.com/red-oxide/.github/tree/main/brand)
+(CC BY-SA 4.0): `logo.svg` and `logo-512.png` are `svg/red-oxide-mark.svg` and
+`png/red-oxide-mark-512.png`; the rest is `favicon/` as-is. Copy them again
+when the logo changes.
 
 ## Deployment
 

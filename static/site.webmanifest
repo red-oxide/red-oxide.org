@@ -1,0 +1,11 @@
+{
+  "name": "red-oxide",
+  "short_name": "red-oxide",
+  "icons": [
+    { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "theme_color": "#9A3B26",
+  "background_color": "#F3F2EF",
+  "display": "standalone"
+}
