@@ -42,10 +42,10 @@ component.
 ## Static files
 
 `static/` holds the red-oxide mark and favicons, copied from
-[red-oxide/.github](https://github.com/red-oxide/.github/tree/main/brand)
-(CC BY-SA 4.0): `logo.svg` and `logo-512.png` are `svg/red-oxide-mark.svg` and
-`png/red-oxide-mark-512.png`; the rest is `favicon/` as-is. Copy them again
-when the logo changes.
+[red-oxide/.github](https://github.com/red-oxide/.github/tree/main/brand) (CC
+BY-SA 4.0): `logo.svg` and `logo-512.png` are `svg/red-oxide-mark.svg` and
+`png/red-oxide-mark-512.png`; the rest is `favicon/` as-is. Copy them again when
+the logo changes.
 
 ## Deployment
 
