@@ -30,8 +30,8 @@ zola.toml          site config ([extra.rivet] drives nav, hero, footer)
 
 ## What goes where
 
-Project news lives here: releases, announcements, roadmaps and migration
-guides, under `content/news/`. Personal writing and retrospectives go on
+Project news lives here: releases, announcements, roadmaps and migration guides,
+under `content/news/`. Personal writing and retrospectives go on
 [chris.palmerlife.online](https://chris.palmerlife.online). When a post fits
 both, publish it once and link it from the other.
 

@@ -5,5 +5,5 @@ sort_by = "title"
 template = "section.html"
 +++
 
-Each project page pulls its documentation from the project's repository when
-the site builds.
+Each project page pulls its documentation from the project's repository when the
+site builds.

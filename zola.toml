@@ -25,11 +25,15 @@ zola_version = "0.23.6"
 # rivet's settings (themes/rivet/README.md)
 [extra.rivet]
 footer_links = [{ name = "MIT / CC BY 4.0", path = "license/" }]
-hero_image   = { src = "logo.svg", size = 128, shape = "square" }
-logo         = "logo.svg"
-nav          = [{ name = "projects", path = "projects/" }, { name = "news", path = "news/" }, { name = "about", path = "about/" }]
-og_image     = { path = "logo-512.png", width = 512, height = 512 }
-recent       = { section = "news/_index.md", count = 5, heading = "Latest news", empty = "No news yet." }
+hero_image = { src = "logo.svg", size = 128, shape = "square" }
+logo = "logo.svg"
+nav = [
+  { name = "projects", path = "projects/" },
+  { name = "news", path = "news/" },
+  { name = "about", path = "about/" },
+]
+og_image = { path = "logo-512.png", width = 512, height = 512 }
+recent = { section = "news/_index.md", count = 5, heading = "Latest news", empty = "No news yet." }
 
 [markdown]
 github_alerts = true
