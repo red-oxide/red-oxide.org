@@ -32,6 +32,7 @@ nav = [
   { name = "news", path = "news/" },
   { name = "about", path = "about/" },
 ]
+feed_image = "logo-512.png"
 og_image = { path = "logo-512.png", width = 512, height = 512 }
 recent = { section = "news/_index.md", count = 5, heading = "Latest news", empty = "No news yet." }
 
