@@ -66,7 +66,8 @@ Add the flake, pinned to the release, and import its NixOS module:
 }
 ```
 
-The [server guide](https://github.com/red-oxide/pressbox/blob/master/docs/server.md)
+The
+[server guide](https://github.com/red-oxide/pressbox/blob/master/docs/server.md)
 covers users, options and pairing, and the
 [clients guide](https://github.com/red-oxide/pressbox/blob/master/docs/clients.md)
 the Home Manager module for the terminal and desktop clients and the

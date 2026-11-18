@@ -18,8 +18,8 @@ documentation and news.
 
 - [pressbox](@/projects/pressbox.md): a self-hosted RSS, Atom and JSON Feed
   aggregator, configured in NixOS, with terminal and desktop clients.
-- [pressbox-darwin](@/projects/pressbox-darwin.md): the SwiftUI app for
-  pressbox on iPhone, iPad and Mac.
+- [pressbox-darwin](@/projects/pressbox-darwin.md): the SwiftUI app for pressbox
+  on iPhone, iPad and Mac.
 - [pressbox-android](@/projects/pressbox-android.md): the Jetpack Compose app
   for pressbox on Android.
 - [birdland](@/projects/birdland.md): a modular Quickshell desktop shell for
@@ -36,8 +36,8 @@ site builds, so it stays in step with the code.
 
 The repositories moved from `github.com/chrisppy` to `github.com/red-oxide`.
 GitHub redirects the old URLs, but if you use any of these as a flake input,
-point it at the new owner, e.g. `github:red-oxide/pressbox`, rather than
-relying on the redirect.
+point it at the new owner, e.g. `github:red-oxide/pressbox`, rather than relying
+on the redirect.
 
 ## What you'll find here
 
