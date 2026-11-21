@@ -29,9 +29,9 @@ offline reading, and Mark All as Read with an undo that doesn't need the server.
 
 **Podcasts.** Audio plays in the background with Lock Screen and Control Center
 controls; video plays inline, full screen or in picture in picture. The full
-player has chapters, a transcript that follows along, speeds that keep the pitch,
-AirPlay and a sleep timer, and each podcast remembers its own speed. Episodes
-resume wherever any client left off.
+player has chapters, a transcript that follows along, speeds that keep the
+pitch, AirPlay and a sleep timer, and each podcast remembers its own speed.
+Episodes resume wherever any client left off.
 
 **Up Next and downloads.** Up Next lives on the server, so the iPhone, terminal
 and desktop clients all share one queue. The newest unread episodes download
@@ -50,7 +50,8 @@ and an unread badge.
 sheets and toolbars, and the home-plate icon in the dark, clear and tinted
 styles.
 
-The [changelog](https://github.com/red-oxide/pressbox-darwin/blob/v26.0.0/CHANGELOG.md)
+The
+[changelog](https://github.com/red-oxide/pressbox-darwin/blob/v26.0.0/CHANGELOG.md)
 has the full list, and the
 [release](https://github.com/red-oxide/pressbox-darwin/releases/tag/v26.0.0) a
 shorter one.
