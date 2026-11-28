@@ -9,14 +9,18 @@ formatting from Nix, deployed by Cloudflare Pages.
 
 ```sh
 git submodule update --init   # fetch rivet into themes/rivet (or clone with --recursive)
-nix develop       # Zola and just (or let direnv load it)
+nix develop       # Zola, just and tack (or let direnv load it)
 just serve        # http://127.0.0.1:1111, reloads on save
 just build        # into public/
 just check        # Zola's link checks
 just fmt          # devfmt's formatters
-just update       # update every flake input
+just update       # move the pins (tack), or `just update nixpkgs` for one
 just update-rivet # move themes/rivet to rivet's latest commit
 ```
+
+The flake has no inputs: nixpkgs, devfmt and tack are pinned with
+[tack](https://github.com/manic-systems/tack) in `.tack/pins.toml`, and the
+Update pins workflow moves them daily.
 
 ## Layout
 
@@ -25,6 +29,7 @@ content/           home, projects, news, about, license
 themes/rivet/      the shared theme (git submodule): templates, styles, palette
 static/            logo and favicons, copied as-is
 nix/               flake-parts module: dev shell
+.tack/             pins: pins.toml is ours, tack writes the rest
 zola.toml          site config ([extra.rivet] drives nav, hero, footer)
 ```
 
